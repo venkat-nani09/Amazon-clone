@@ -14,7 +14,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-}
+} 
 .nav-logo {
   height: 50px;
   width: 100px;
@@ -242,6 +242,7 @@ font-weight: bold;
 .panal{
   margin-top: 60px;
   height: 40px;
+  width: 100%;
   background-color: rgb(35, 47, 62);
   color: white;
   display: flex;
@@ -267,14 +268,20 @@ font-weight: bold;
 }
 .hero-section{
   height: 300px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .hero-img{
   height: 290px;
   cursor: pointer;
-  width: 1032.5px;
+  width: 100%;
+}
+.shop{
+  width: 100%;
+
 }
 .box-1{
   height: 400px;
@@ -501,6 +508,7 @@ font-weight: bold;
 }
 footer{
   margin-top: 15px;
+  width: 100%;
 }
 .foot-1{
   background-color: #37475a;
@@ -591,8 +599,30 @@ text-decoration: underline;
     text-decoration: underline;
     }
 .footer-2-1{
-  padding-bottom: 180px;
+  padding-bottom: 110px;
 }
+.foot-2-1{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.foot-2-1 p{
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.foot-2-1 a{
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.foot-2-1 a:hover{
+  text-decoration: underline;
+  }
+  .foot-2-1 p:hover{
+    text-decoration: underline;
+    }
 .end-panal-1{
   height: 70px;
   background-color: #232F3E;
@@ -627,4 +657,126 @@ text-decoration: underline;
 }
 .pages a:hover{
   text-decoration: underline;
+}
+/*Mobile version */
+@media only screen and (max-width: 600px) {
+  .screen-width{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  *{
+    margin: 0;
+    border: border-box;
+    overflow-x: hidden;
+  }
+  .amazon-logo{
+    width: 50px;
+    height: 25px;
+  }
+  .address{
+    display: none;
+  }
+  .panal{
+    display: none;
+  }
+  .lang-logo{
+    display: none;
+  }
+  .eng{
+    display: none;
+  }
+  .sign-in{
+    display: none;
+  }
+  .cart{
+    width: 50px;
+    height: 40px;
+    padding-right: 30px;
+    padding-top: 20px;
+    display: flex;
+  }
+  .cart i{
+    font-size:medium;
+    padding-right: 25px;
+  }
+  .return-order{
+    display: none;
+  }
+  .search-bar{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    padding-right: 30px;
+  }
+  .hero-section{
+    width: 100%;
+    height: 200px;
+  }
+  .hero-img{
+    width: 90%;
+    height: 130px;
+    padding-left: 15px;
+    padding-top: 63px;
+  }
+  .navbar{
+    position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  }
+  .box-1{
+    width: 95%;
+  }
+  .box-2{
+    width: 95%;
+  }
+  .box-3{
+    width: 95%;
+  }
+  .box-4{
+    width: 95%;
+  }
+  .box-5{
+    width: 95%;
+  }
+  .box-6{
+    width: 95%;
+  }
+  .box-7{
+    width: 95%;
+  }
+  .box-8{
+    width: 95%;
+  }
+  .foot-2{
+    font-size:xx-small;
+    padding-left: 10px;
+    padding-bottom: 40px;
+  }
+  .foot-3{
+    font-size:xx-small;
+    padding-left: 10px;
+    padding-bottom: 25px;
+  }
+  .foot-1-1{
+    font-size:xx-small;
+    padding-left: 10px;
+    padding-bottom: 170px;
+  }
+  .foot-2-1{
+    font-size: xx-small;
+    padding-left: 10px;
+    padding-bottom: 0px;
+  }
+  .footer-2{
+    height: 320px;
+  }
 }
